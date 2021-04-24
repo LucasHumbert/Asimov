@@ -1,12 +1,5 @@
-const mysql = require("mysql");
 const jwt = require("jsonwebtoken");
-
-const db = mysql.createConnection({
-    host: process.env.DATABASE_HOST,
-    user: process.env.DATABASE_USER,
-    password: process.env.DATABASE_PASSWORD,
-    database: process.env.DATABASE
-});
+const db = require('../models/database');
 
 exports.login = async (req, res) => {
     
@@ -40,7 +33,7 @@ exports.login = async (req, res) => {
             }
 
             res.cookie('jwt', token, cookieOptions);
-            res.status(200).redirect("/");
+            res.status(200).redirect("/accueil");
         }
     });
 
