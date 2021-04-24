@@ -8,6 +8,14 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>ZBEUB</h1>
+    <div id="container">
+    <form class="box" action="/auth/login" method="post" name="login">
+    <h1 class="box-title">Connexion</h1>
+    <input type="text" class="box-input" name="username" placeholder="Nom d'utilisateur (chiffres uniquement)" pattern="[0-9]">
+    <input type="password" class="box-input" name="password" placeholder="Mot de passe">
+    <input type="submit" value="Connexion " name="submit" class="box-button">
+    <a href="eleve.html">Eleve</a>
+    </form>
+    </div>
 </body>
 </html>
