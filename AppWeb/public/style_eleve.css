@@ -1,0 +1,91 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+} 
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    line-height: 1.42em;
+    background-color: #94003C;
+    color: black;
+  }
+
+
+  #top {
+    padding-right: 3%;
+    height: 18vh;
+    background-color: #A50043;
+  }
+
+  #intop {  
+    margin:0 auto;
+    display: flex;
+    text-align: center;
+  }
+
+  #intop div{
+    width: 300px;
+    margin: 1% 40px;
+    background-color: #740A35;
+  }
+
+  #intop div.img {
+    background-color: #94003C;
+  }
+
+  .fit-picture {
+    margin-top: 10px;
+  }
+
+  #intop p {
+    margin-top: 50px;
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  #bande {
+    width: 90%;
+    height: 10vh;
+    margin:0 auto;
+    display: flex;
+  }
+
+
+  #bande div {
+    background-color: yellow;
+    width: 16.9%;
+    margin-left: 4.7%;
+  }
+
+  #bande #bande1 {
+    margin-left: 18.4%;
+  }
+
+  #detail {
+    width: 90%;
+    height: 68vh;
+    margin:0 auto;
+    background-color: #740A35;
+  }
+
+  #tdetail {
+    margin-left: 5%;
+  }
+
+  #detail td {
+    width: 100vw;
+  }
+
+  p.description {
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+  }
+
